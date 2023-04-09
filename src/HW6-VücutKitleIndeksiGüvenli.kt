@@ -20,7 +20,7 @@ fun main() {
         println("Kütle değeri sayı olmalı")
     } else if (boy == null) {
         println("Boy değeri sayı olmalı")
-    } else {
+    } else { // case -> durum
         println("Girilen kütle: $kütle")
         println("Girilen boy: $boy")
         val vki = kütle / (boy * boy)
